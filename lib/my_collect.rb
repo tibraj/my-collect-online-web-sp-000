@@ -7,4 +7,4 @@ def my_collect(array)
   array
 end
 
-my_collect(arrau) { |element| element.upcase}
+my_collect(array) { |element| element.upcase}
