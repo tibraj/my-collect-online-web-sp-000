@@ -6,3 +6,6 @@ def my_collect(array)
   end
   array
 end
+
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect(collection) { |element| element.upcase}
